@@ -1,0 +1,27 @@
+.radio-button {
+  &__option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    input {
+      display: none;
+      margin: 0;
+      width: 16px;
+      height: 16px;
+      cursor: pointer;
+    }
+  }
+
+  &__text{
+    padding-left:0.3rem;
+    font-size: 14px;
+    display:flex;
+    color:black;
+  }
+
+  &__info{
+    padding-left:0.3rem;
+    cursor:poiner;
+  }
+}

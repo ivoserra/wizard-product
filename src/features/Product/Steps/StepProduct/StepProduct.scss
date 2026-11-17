@@ -1,0 +1,40 @@
+.stepProduct {
+  width: 100%;
+  min-height: 650px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: auto;
+
+  &__nav {
+    display: flex;
+    justify-content: right;
+    padding: 0.3rem;
+    gap:8px;
+    //border-bottom: 1px solid lightblue;
+  }
+
+  &__wrapper {
+    padding: 0.5rem;
+  }
+  &__inner {
+    //border: 1px solid lightblue;
+    border-radius: 10px;
+  }
+
+  &__modal{
+    width:100%;
+    &__nav{
+      width:100%;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      padding:0.5rem;
+    }
+
+    &__table{
+      padding:0.5rem;
+    }
+  }
+}
